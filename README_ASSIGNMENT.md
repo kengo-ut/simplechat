@@ -15,7 +15,7 @@ direnv allow
 ```bash
 uv sync
 ```
-- `backend/app.py`をローカル (Google Colab)で実行し、推論APIを立ち上げます
+- `app.py`をローカル (Google Colab)で実行し、推論APIを立ち上げます
 ```bash
 uv run python app.py
 ```
