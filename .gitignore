@@ -2,6 +2,7 @@
 cdk.out/
 
 # 依存関係
+.venv
 node_modules/
 frontend/node_modules/
 
@@ -15,3 +16,6 @@ frontend/build/
 # その他一般的な無視ファイル
 .DS_Store
 *.log
+
+# envファイル
+.envrc
