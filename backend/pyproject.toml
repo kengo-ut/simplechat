@@ -1,0 +1,17 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "A FastAPI backend for the chatbot."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "accelerate>=1.6.0",
+    "fastapi>=0.115.12",
+    "nest-asyncio>=1.6.0",
+    "protobuf>=6.30.2",
+    "pydantic>=2.11.4",
+    "pyngrok>=7.2.5",
+    "sentencepiece>=0.2.0",
+    "transformers>=4.51.3",
+    "uvicorn>=0.34.2",
+]
